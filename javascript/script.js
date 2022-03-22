@@ -1,5 +1,3 @@
-let IndQ = 0;
-//let Title = 0;
 let btnConfirmar = document.getElementById('next');
 let cont = 0;
 let quest = document.getElementsByClassName('question-label');
@@ -8,38 +6,59 @@ let quest = document.getElementsByClassName('question-label');
 var dicionario = {
 
     0 : {
-        'Title':'Título 01',
+        'Title':'Texto da pergunta texto da pergunta texto da pergunta número 1',
         'question': {
-            0: 'pergunta .a',
-            1: '312321pergunta .b',
-            2: 'pergunta .c',
-            3: 'pergunta .d'
+            0: 'a. Alternativa A',
+            1: 'a. Alternativa B',
+            2: 'a. Alternativa C',
+            3: 'a. Alternativa D'
         }
     },
     1 : {
-        'Title':'Título 02',
+        'Title':'Texto da pergunta texto da pergunta texto da pergunta número 2',
         'question': {
-            0: 'pergunta .a',
-            1: '1pergunta .b',
-            2: '2pergunta .c',
-            3: 'pergunta .d'
+            0: 'a. Alternativa E',
+            1: 'a. Alternativa F',
+            2: 'a. Alternativa G',
+            3: 'a. Alternativa H'
         }
     },
 
     2 : {
-        'Title':'Título 03',
+        'Title':'Texto da pergunta texto da pergunta texto da pergunta número 3',
         'question': {
-            0: 'pergunta .a',
-            1: 'pergunta .b',
-            2: 'pergunta .c',
-            3: 'pergunta .d'
+            0: 'a. Alternativa I',
+            1: 'a. Alternativa J',
+            2: 'a. Alternativa K',
+            3: 'a. Alternativa L'
         }
     },
     
 }
 
+var results = {
+    15: 'financeiro',
+    30: 'marketing',
+    45: 'processos'
+}
+
+
+
+
+function myFunction(){
+    btnConfirmar.textContent = "Próxima pergunta";
+    document.getElementById('demos').style.display='none';
+    questoes();
+}
+
 function questoes(){
     document.getElementById('grid').style.display='block';
+    if(cont === 3){
+        ExResult();
+    }
+    else if(cont === 2){
+        btnConfirmar.textContent = "Resultados";
+    }
     Titulo.textContent = dicionario[cont]['Title'];
     for(let i = 0; i < 4; i++){
         quest[i].innerHTML = dicionario[cont]['question'][i]
@@ -49,30 +68,12 @@ function questoes(){
 }
 
 
-/*function ExResult(){
-    Titulo.textContent = Results[57];
+
+function ExResult(){
+    cont=0;
+    Titulo.textContent = results[45];
     document.getElementById('grid').style.display='none';
-    document.getElementById('imagem').style.display='block';
+    document.getElementById('image-result').style.display='block';
     document.getElementById('next').style.display='none';
-
-}*/
-
-/*function questoes(){
-    Titulo.textContent = ListaTitulo[Title];
-    document.getElementById('grid').style.display='block';
-    if(cont === 3){
-        ExResult();
-    }
-    else if(cont === 2){
-        btnConfirmar.textContent = "Resultados";
-    }
-    Title++;
-    cont++;
-}*/
-
-
-function myFunction(){
-    btnConfirmar.textContent = "Próxima pergunta";
-    document.getElementById('demos').style.display='none';
-    questoes();
+    document.getElementById('boxproc').style.display='block';
 }

@@ -8,39 +8,43 @@
 </head>
 <body>
 
-<h2 id="Titulo">Título 1.</h2>
-
-<p id="demos">A Paragraph.</p>
-
-<div class="grid" id="grid">
-<ul>
-  <li>
-    <input type="checkbox" id="check_1" name="check_1" value="0">
-    <label class="question-label" for="check_1">a. Alternativa A</label>
-  </li>
-  <li>
-    <input type="checkbox" id="check_2" name="check_2" value="1">
-    <label class="question-label" for="check_2">b. Alternativa B</label>
-  </li>
-  <li>
-    <input type="checkbox" id="check_3" name="check_3" value="2">
-    <label class="question-label" for="check_3">c. Alternativa C</label>
-  </li>
-  <li>
-    <input type="checkbox" id="check_4" name="check_4" value="3">
-    <label class="question-label" for="check_4">d. Alternativa D</label>
-  </li>
-</ul>
-</div>
-
-<div>
-  <img src="./img/Group 3.svg"  id="imagem" class="imagem" alt="">
-</div>
-
-
-
-<div><button id="next" type="button" onclick="myFunction()">Começar</button></div>
-
+  <div class="container">
+    <h2  class="csstitulo" id="Titulo">Entenda como priorizar as dores da sua empresa!</h2>
+  
+  <p id="demos">Ainda com dúvidas sobre qual serviço sua empresa/<br>negócio precisa? Faça o quiz da Inova e descubra!</p>
+  
+  <div class="grid" id="grid">
+  <ul></ul>
+    <li class="listItem">
+      <input type="checkbox" id="check_1" name="check_1" value="0">
+      <label class="question-label" for="check_1">a. Alternativa A</label>
+    </li>
+    <li class="listItem">
+      <input type="checkbox" id="check_2" name="check_2" value="1">
+      <label class="question-label" for="check_2">b. Alternativa B</label>
+    </li>
+    <li class="listItem">
+      <input type="checkbox" id="check_3" name="check_3" value="2">
+      <label class="question-label" for="check_3">c. Alternativa C</label>
+    </li>
+    <li class="listItem">
+      <input type="checkbox" id="check_4" name="check_4" value="3">
+      <label class="question-label" for="check_4">d. Alternativa D</label>
+    </li>
+  </ul>
+  </div>
+  
+  <div class="image">
+    <img id="image-result" src="http://novosite.inovaej.com.br/wp-content/uploads/2022/01/Group.svg" class="imagem" alt="">
+  </div>
+  
+  
+  
+  <div id="boxbtn" class="boxbtn"><button id="next" class="btnnext btncss" type="button" onclick="myFunction()">Começar</button></div>
+  <div id="boxfinan"><button id="finan" class="finan" type="button" href="">Financeiro</button></div>
+  <div id="boxmarkt"><button id="markt" class="markt" type="button" href="">Marketing</button></div>
+  <div id="boxproc"><button id="proc" class="proc" type="button" href="">Processos</button></div>
+  </div>
 <script src="javascript/script.js"></script>
 
 </body>
