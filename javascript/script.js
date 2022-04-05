@@ -1,6 +1,7 @@
 let btnConfirmar = document.getElementById('next');
 let cont = 0;
-let quest = document.getElementsByClassName('question-label');
+let quest = document.querySelectorAll(".question-label");
+let Bton = document.querySelector("#next");
 
 
 var dicionario = {
@@ -52,6 +53,12 @@ function myFunction(){
 }
 
 function questoes(){
+
+    //não funcionou
+    Bton.addEventListener("click", function(e){
+        e.preventDefault();
+    })
+
     document.getElementById('grid').style.display='block';
     if(cont === 3){
         ExResult();
