@@ -26,7 +26,7 @@ var dicionario = {
     },
 
     2 : {
-        'Title':'Texto da pergunta texto da pergunta texto da pergunta número 3',
+        'Title':'Ai gente é muito difícil, Harry Potter',
         'question': {
             0: 'a. Alternativa I',
             1: 'a. Alternativa J',
