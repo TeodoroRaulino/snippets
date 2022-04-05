@@ -15,7 +15,7 @@ var dicionario = {
         }
     },
     1 : {
-        'Title':'Texto da pergunta texto da pergunta texto da pergunta número 2',
+        'Title':'GTi VAI QUE VAI',
         'question': {
             0: 'a. Alternativa E',
             1: 'a. Alternativa F',
