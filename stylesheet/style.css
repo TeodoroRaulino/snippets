@@ -43,7 +43,7 @@ input[type="checkbox"]:checked + label {
     background-color: #FAFAFA;
     border-radius: 16px;
   -moz-border-radius: 16px;
-  webkit-border-radius: 16px;
+  -webkit-border-radius: 16px;
 }
 
 .div{
@@ -93,7 +93,7 @@ input[type="checkbox"]:checked + label {
   align-items: center;
   border-radius: 0px 0px 16px 16px;
   -moz-border-radius: 0px 0px 16px 16px;
-  webkit-border-radius: 0px 0px 16px 16px;
+  -webkit-border-radius: 0px 0px 16px 16px;
 }
 
 
