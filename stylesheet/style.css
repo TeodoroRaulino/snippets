@@ -11,6 +11,10 @@ li {
   float: left;
 }
 
+ul li label{
+  cursor: pointer;
+}
+
 input[type="checkbox"]:not(:checked), 
 input[type="checkbox"]:checked {
   position: absolute;
