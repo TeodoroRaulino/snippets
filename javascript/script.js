@@ -7,7 +7,7 @@ let Bton = document.querySelector("#next");
 var dicionario = {
 
     0 : {
-        'Title':'Texto da pergunta texto da pergunta texto da pergunta número 1',
+        'Title':'Eh... Talvez eu jogue lol',
         'question': {
             0: 'a. Alternativa A',
             1: 'a. Alternativa B',
@@ -26,7 +26,7 @@ var dicionario = {
     },
 
     2 : {
-        'Title':'Ai gente é muito difícil, Harry Potter',
+        'Title':'Ai gente, é muito difícil, Harry Potter',
         'question': {
             0: 'a. Alternativa I',
             1: 'a. Alternativa J',
