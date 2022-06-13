@@ -10,9 +10,9 @@ var dicionario = {
         'Title':'Eh... Talvez eu jogue lol',
         'question': {
             0: 'a. League of lendas',
-            1: 'a. Alternativa B',
-            2: 'a. Alternativa C',
-            3: 'a. Alternativa D'
+            1: 'b. League of legends',
+            2: 'c. Alternativa C',
+            3: 'd. Alternativa D'
         }
     },
     1 : {

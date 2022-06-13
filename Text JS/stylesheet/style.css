@@ -1,0 +1,16 @@
+body {
+    font-family: Arial;
+    font-size: 50px;
+       color: #101920;
+   }
+   
+   #container {
+    margin: 50px 0 0 0;
+    text-align: center;
+   }
+   
+   #text {
+    display: inline-block;
+    color: #FD7722;
+    border-right: 3px solid #FD7722;
+   }
