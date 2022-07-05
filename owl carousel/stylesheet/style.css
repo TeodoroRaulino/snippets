@@ -1,0 +1,25 @@
+.owlContainer{
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  .owlContainer .owl-prev, .owlContainer .owl-next{
+    position: absolute;
+    top: 35%;
+  }
+  .owlContainer .owl-prev{
+    left: -9.3%;
+  }
+  .owlContainer .owl-next{
+    right: -7%;
+  }
+  .boxCollaborators{
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-left: 10px;
+  }
+  .item{
+    padding: 15px 0!important;
+  }
