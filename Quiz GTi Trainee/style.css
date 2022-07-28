@@ -1,0 +1,54 @@
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+    font-size: 18px;
+    background-image: url("https://i.ytimg.com/vi/DgtXWjd3H5s/maxresdefault.jpg");
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: multiply;
+  
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  .conteudo {
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25vh;
+    padding-bottom: 20px;
+    border-radius: 16px;
+  
+  }
+  
+  ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0px;
+  }
+  
+  li {
+    padding: 20px;
+  }
+  
+  #listaRespostas {
+    display: none;
+  }
+  
+  button {
+    border: 0;
+    background-color: rgb(200,255,225);
+    padding: 10px 20px 10px;
+    font-size: 18pt;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: rgb(100,255,125);
+  }
