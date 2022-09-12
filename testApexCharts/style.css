@@ -7,19 +7,29 @@
 }
 
 .cardDashboard{
-  border: solid 1px;
+  background-color: white;
+  height: 140px;
+  width: 250px;
   border-radius: 15px;
   width: 250px;
+  filter: drop-shadow(0px 2px 32px rgba(0, 0, 0, 0.1));
 }
 
 .cardDashboard.colorGreen{
-  border-bottom: green solid 5px;
+  border-bottom: #1FD1A4 solid 8px;
 }
 
 .cardDashboard.colorRed{
-  border-bottom: red solid 5px;
+  border-bottom: #DC3924 solid 8px;
 }
 
 .cardDashboard.colorGray{
-  border-bottom: gray solid 5px;
+  border-bottom: #666666 solid 8px;
 }
+
+/* css do titulo{
+
+}
+css dos valores{
+
+} */
