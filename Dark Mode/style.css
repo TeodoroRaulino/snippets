@@ -23,6 +23,7 @@ body {
   padding: 2rem;
   width: 500px;
   background-color: var(--backgroundContainer);
+  box-shadow: var(--shadow);
 }
 
 h4 {
